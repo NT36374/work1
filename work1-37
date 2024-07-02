@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3><?php echo "PHP & MariaDB"; ?></h3>
+    
+    <div style="font-size: larger; color: blue;">
+        <?php echo "<b>สิ่งที่ต้องติดตั้ง:</b>"; ?>
+    </div>
+    <ul>
+    <?php
+        echo "<li>Apache</li>";
+        echo "<li>PHP</li>";
+        echo "<li>MariaDB</li>";
+    ?>
+    </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Example2-2</title>
+</head>
+<body>
+<?php
+$p = "php mariadb";
+$b = 1;
+$n = 10;
+$t = 1000;
+echo "<b>ให้เขียนค้นหาผลลัพธ์ของตัวแปร:</b> <br> จำนวน: (ตัวอย่างประ:$p) ผลลัพธ์ถัดไป (ตัวอย่างประ:$b) (ตัวอย่างประ:$n) จากทั้งหมด (ตัวอย่างประ:$t)";
+echo "<p style=\"color:red;\">***ผลลัพธ์จะเป็นอย่างอื่นได้โดยไม่คิดหลักคณิตศาสตร์ของตัวแปร***</p>";
+echo "<br><br>";
+echo "<b>ผลลัพธ์ที่ได้:</b><br>";
+echo "ค้นหา: $p ผลลัพธ์ถัดไป: $b - $n จากทั้งหมด $t";
+?>
+</body>
+</html>
